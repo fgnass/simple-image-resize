@@ -1,0 +1,39 @@
+{
+  "name": "simple-image-resize",
+  "version": "1.0.0",
+  "author": "Felix Gnass",
+  "license": "MIT",
+  "engines": {
+    "node": ">=10"
+  },
+  "module": "dist/simple-image-resize.esm.js",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "start": "tsdx watch",
+    "build": "tsdx build",
+    "lint": "tsdx lint",
+    "prepare": "tsdx build"
+  },
+  "devDependencies": {
+    "husky": "^6.0.0",
+    "tsdx": "^0.14.1",
+    "tslib": "^2.2.0",
+    "typescript": "^4.2.4"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "tsdx lint"
+    }
+  },
+  "prettier": {
+    "printWidth": 80,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  }
+}
