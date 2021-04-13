@@ -1,10 +1,16 @@
 {
   "name": "simple-image-resize",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Felix Gnass",
   "license": "MIT",
   "repository": "fgnass/simple-image-resize",
-  "keywords": ["image", "resize", "file", "blob", "browser"],
+  "keywords": [
+    "image",
+    "resize",
+    "file",
+    "blob",
+    "browser"
+  ],
   "engines": {
     "node": ">=10"
   },
