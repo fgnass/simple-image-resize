@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "author": "Felix Gnass",
   "license": "MIT",
+  "repository": "fgnass/simple-image-resize",
+  "keywords": ["image", "resize", "file", "blob", "browser"],
   "engines": {
     "node": ">=10"
   },
